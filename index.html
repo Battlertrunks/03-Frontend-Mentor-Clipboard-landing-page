@@ -11,9 +11,11 @@
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com"> 
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-<link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+  <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap" rel="stylesheet">
 
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/d45e0bb4fe.js" crossorigin="anonymous"></script>
   <title>Frontend Mentor | Clipboard landing page</title>
 
 </head>
@@ -36,6 +38,7 @@
       <p class='title-description'>Clipboard instantly stores any item you copy in the cloud, 
   meaning you can access your snippets immediately on all your 
   devices. Our Mac and iOS apps will help you organize everything.</p>
+    <div class='features-flex'>
         <img src="./images/image-computer.png" alt="Computer displaying checked circle">
         <ul class="feature-info-list">
           <li>
@@ -49,8 +52,9 @@
           <li>
             <h3>Complete History</h3>
             <p>Retrieve any snippets from the first moment you started using the app.</p>
-          </li>
+          </li>        
         </ul>
+      </div>
     </section>
     <section class="access-anywhere-info-container">
       <h2>Access clipboard anywhere</h2>
@@ -63,17 +67,17 @@
       <p class='title-description'>We’ve got the tools to boost your productivity.</p>
       <ul class="workflow-list">
         <li>
-          <img src="./images/icon-blacklist.svg" alt="blacklist icon">
+          <img class='blacklist-icon' src="./images/icon-blacklist.svg" alt="blacklist icon">
           <h3>Create blacklists</h3>
           <p>Ensure sensitive information never makes its way to your clipboard by excluding certain sources.</p>
         </li>
         <li>
-          <img src="./images/icon-text.svg" alt="text 'a' icon">
+          <img class='a-icon' src="./images/icon-text.svg" alt="text 'a' icon">
           <h3>Plan text snippets</h3>
           <p>Remove unwanted formatting from copied text for a consistent look.</p>
         </li>
         <li>
-          <img src="./images/icon-preview.svg" alt="preview 'eye' icon">
+          <img class='eye-icon' src="./images/icon-preview.svg" alt="preview 'eye' icon">
           <h3>Sneak preview</h3>
           <p>Quick preview of all snippets on your Clipboard for easy access.</p>
         </li>
@@ -99,7 +103,7 @@
     </section>
   </main>
   <footer>
-    <img src="./images/logo.svg" alt="Clipboard logo">
+    <img class='footer-logo' src="./images/logo.svg" alt="Clipboard logo">
     <ul class="footer-links-list">
       <li><a href="#">FAQs</a></li>
       <li><a href="#">Contact Us</a></li>
@@ -108,9 +112,9 @@
       <li><a href="#">Install Guide</a></li>
     </ul>
     <ul class="social-media-links">
-      <li><a href="#"><img src="./images/icon-facebook.svg" alt="facebook link"></a></li>
-      <li><a href="#"><img src="./images/icon-twitter.svg" alt="twitter link"></a></li>
-      <li><a href="#"><img src="./images/icon-instagram.svg" alt="instagram link"></a></li>
+      <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+      <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+      <li><a href="#"><i class="fab fa-instagram"></i></a></li>
     </ul>
   </footer>
 
